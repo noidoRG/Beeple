@@ -4,7 +4,7 @@
     <string name="password">Password</string>
     <string name="log_in">Log In</string>
     <string name="create_account">Create Account</string>
-    <string name="enter_email">Enter email</string>
+    <string name="enter_email">Enter e-mail</string>
     <string name="enter_password">Enter password</string>
     <string name="confirm_password">Confirm password</string>
     <string name="sign_up">Sign up</string>
@@ -12,11 +12,7 @@
     <string name="fill_field">Fill field</string>
     <string name="user_not_found">User not found</string>
     <string name="server_not_responding">The server is not responding</string>
-    <string name="invalid_email">It\'s not email adress\nAcceptable Emails:@gmail.com, @mail.ru, @yandex.ru</string>
+    <string name="invalid_email">Invalid e-mail address\nOnly the following e-mails are allowed: @gmail.com, @mail.ru, @yandex.ru</string>
     <string name="short_password">Too short\nMust be from 4 to 12 symbols</string>
-    <string name="not_identic_passwords">Not identic passvords</string>
-
-
-
-
+    <string name="not_identical_passwords">Not identical passwords</string>
 </resources>

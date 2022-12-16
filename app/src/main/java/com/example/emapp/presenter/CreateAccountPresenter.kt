@@ -38,7 +38,7 @@ class CreateAccountPresenter(_view: CreateAccount): Presenter {
                         }
                     }
             }
-            else view.edConfirmPassword.error = view.getString(R.string.not_identic_passwords)
+            else view.edConfirmPassword.error = view.getString(R.string.not_identical_passwords)
         }
         else {
             if(!(emailValidator.ValidateEmail(edCreateEmail))){

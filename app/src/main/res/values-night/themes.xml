@@ -1,14 +1,14 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.EmApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.Beeple" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#FCDF86</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/elephant</item>
+        <item name="colorPrimaryVariant">@color/stratos</item>
+        <item name="colorOnPrimary">@color/firefly</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/east_bay</item>
+        <item name="colorSecondaryVariant">@color/blue_bayoux</item>
+        <item name="colorOnSecondary">@color/ebony_clay</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
