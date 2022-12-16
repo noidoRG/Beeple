@@ -28,10 +28,10 @@ class MainActivity : AppCompatActivity(), View {
         presenter = MainActivityPresenter(this)
 
         // Write a message to the database
-        val database = Firebase.database("https://beeple-rmp-default-rtdb.europe-west1.firebasedatabase.app")
-        val myRef = database.getReference("message")
+        //val database = Firebase.database("https://beeple-rmp-default-rtdb.europe-west1.firebasedatabase.app")
+        //val myRef = database.getReference("message")
 
-        myRef.setValue("Hello, World!")
+        //myRef.setValue("Hello, World!")
     }
 
     override fun initView() {
