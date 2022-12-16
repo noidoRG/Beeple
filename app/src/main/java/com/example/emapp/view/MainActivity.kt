@@ -13,6 +13,8 @@ import androidx.core.widget.addTextChangedListener
 import com.example.emapp.R
 import com.example.emapp.contract.ContractInterface.*
 import com.example.emapp.presenter.MainActivityPresenter
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), View {
@@ -24,6 +26,12 @@ class MainActivity : AppCompatActivity(), View {
         setContentView(R.layout.activity_main)
 
         presenter = MainActivityPresenter(this)
+
+        // Write a message to the database
+        val database = Firebase.database("https://beeple-rmp-default-rtdb.europe-west1.firebasedatabase.app")
+        val myRef = database.getReference("message")
+
+        myRef.setValue("Hello, World!")
     }
 
     override fun initView() {
@@ -64,7 +72,7 @@ class MainActivity : AppCompatActivity(), View {
         val view = this.currentFocus
         when(event?.actionMasked){
             MotionEvent.ACTION_DOWN ->{
-                val hideMe = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+                val hideMe = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
                 hideMe.hideSoftInputFromWindow(view?.windowToken,0)
             }
         }
