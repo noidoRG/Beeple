@@ -1,3 +1,7 @@
+<!--
+  ~ Copyright (c) 2023. Project for Mobile App Development course. Rodion Gladyshev (@noidoRG).
+  -->
+
 <resources>
     <string name="app_name">Beeple</string>
     <string name="email">Электронная почта</string>

@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2023. Project for Mobile App Development course. Rodion Gladyshev (@noidoRG).
+ */
+
 package com.example.emapp.view
 import android.content.Context
 import android.content.Intent
@@ -25,6 +29,11 @@ class CreateAccount : AppCompatActivity(), View {
 
 
     override fun initView() {
+        BackArrow.setOnClickListener {
+            startActivity(Intent( this, MainActivity::class.java))
+            finish()
+        }
+
         CreateButton.setOnClickListener {
             presenter?.createAccount(edCreateEmail.editText?.text.toString(),
                 edCreatePassword.editText?.text.toString(),

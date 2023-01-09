@@ -1,3 +1,7 @@
+<!--
+  ~ Copyright (c) 2023. Project for Mobile App Development course. Rodion Gladyshev (@noidoRG).
+  -->
+
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.Beeple" parent="Theme.MaterialComponents.DayNight.NoActionBar">

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023. Project for Mobile App Development course. Rodion Gladyshev (@noidoRG).
+  -->
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -17,8 +21,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/nav_menu"
         android:background="@drawable/button_background"
-        app:itemIconTint="#000000"
-        app:itemTextColor="#000000">
+        app:itemIconTint="@color/elephant"
+        app:itemTextColor="@color/elephant">
 
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>

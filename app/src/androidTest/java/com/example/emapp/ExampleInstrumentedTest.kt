@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2023. Project for Mobile App Development course. Rodion Gladyshev (@noidoRG).
+ */
+
 package com.example.emapp
 
 import androidx.test.platform.app.InstrumentationRegistry
